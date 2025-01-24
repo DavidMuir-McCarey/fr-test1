@@ -198,7 +198,18 @@ body.video cite { color: #fff; }
     height: 260px;
 }
 
-
+.top-bar-section {
+  ul {
+    display: flex;
+    gap: 1rem;
+    li {
+      float: none;
+      a {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}
 
 /* Breadcrumb
 ------------------------------------------------------------------- */
